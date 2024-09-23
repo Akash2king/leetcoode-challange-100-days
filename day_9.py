@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if len(nums) <= 2:
@@ -17,3 +19,5 @@ class Solution:
         
         return insertPos
 
+sol = Solution()
+print(sol.removeDuplicates(nums = [1, 2, 2, 2, 2, 3, 4, 4]))
